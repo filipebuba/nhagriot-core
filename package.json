@@ -1,0 +1,22 @@
+{
+  "name": "nhagriot-core",
+  "version": "0.1.0",
+  "description": "Open-source offline-first audiobook and study core extracted from Nhagriot.",
+  "type": "module",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "docx": "^9.7.1",
+    "pdfjs-dist": "^5.7.284",
+    "pdfmake": "^0.2.23",
+    "zustand": "^5.0.13"
+  },
+  "devDependencies": {
+    "@types/pdfmake": "^0.2.13",
+    "typescript": "~6.0.2",
+    "vite": "^8.0.12"
+  }
+}
